@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C58EBB1D27C68CC600BD26E2 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58EBB1C27C68CC600BD26E2 /* BrowserView.swift */; };
+		C58EBB1E27C68CC600BD26E2 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58EBB1C27C68CC600BD26E2 /* BrowserView.swift */; };
 		C59611D527C6770C0055DCF6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59611D427C6770C0055DCF6 /* Tests_iOS.swift */; };
 		C59611D727C6770C0055DCF6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59611D627C6770C0055DCF6 /* Tests_iOSLaunchTests.swift */; };
 		C59611E127C6770C0055DCF6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59611E027C6770C0055DCF6 /* Tests_macOS.swift */; };
@@ -17,6 +19,8 @@
 		C59611E727C6770C0055DCF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59611BD27C6770A0055DCF6 /* ContentView.swift */; };
 		C59611E827C6770D0055DCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59611BE27C6770C0055DCF6 /* Assets.xcassets */; };
 		C59611E927C6770D0055DCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59611BE27C6770C0055DCF6 /* Assets.xcassets */; };
+		C59611F927C686EC0055DCF6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59611F827C686EC0055DCF6 /* CircleImage.swift */; };
+		C59611FA27C686EC0055DCF6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59611F827C686EC0055DCF6 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C58EBB1C27C68CC600BD26E2 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
 		C59611BC27C6770A0055DCF6 /* TestHeadless_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHeadless_1App.swift; sourceTree = "<group>"; };
 		C59611BD27C6770A0055DCF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C59611BE27C6770C0055DCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C59611C327C6770C0055DCF6 /* TestHeadless-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestHeadless-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59611C327C6770C0055DCF6 /* ThrillionBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrillionBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59611C927C6770C0055DCF6 /* TestHeadless-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestHeadless-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59611CB27C6770C0055DCF6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		C59611D027C6770C0055DCF6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +54,7 @@
 		C59611DC27C6770C0055DCF6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59611E027C6770C0055DCF6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C59611E227C6770C0055DCF6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C59611F827C686EC0055DCF6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				C59611BC27C6770A0055DCF6 /* TestHeadless_1App.swift */,
 				C59611BD27C6770A0055DCF6 /* ContentView.swift */,
 				C59611BE27C6770C0055DCF6 /* Assets.xcassets */,
+				C59611F827C686EC0055DCF6 /* CircleImage.swift */,
+				C58EBB1C27C68CC600BD26E2 /* BrowserView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -107,7 +115,7 @@
 		C59611C427C6770C0055DCF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C59611C327C6770C0055DCF6 /* TestHeadless-1.app */,
+				C59611C327C6770C0055DCF6 /* ThrillionBeta.app */,
 				C59611C927C6770C0055DCF6 /* TestHeadless-1.app */,
 				C59611D027C6770C0055DCF6 /* Tests iOS.xctest */,
 				C59611DC27C6770C0055DCF6 /* Tests macOS.xctest */,
@@ -158,7 +166,7 @@
 			);
 			name = "TestHeadless-1 (iOS)";
 			productName = "TestHeadless-1 (iOS)";
-			productReference = C59611C327C6770C0055DCF6 /* TestHeadless-1.app */;
+			productReference = C59611C327C6770C0055DCF6 /* ThrillionBeta.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C59611C827C6770C0055DCF6 /* TestHeadless-1 (macOS) */ = {
@@ -301,6 +309,8 @@
 			files = (
 				C59611E627C6770C0055DCF6 /* ContentView.swift in Sources */,
 				C59611E427C6770C0055DCF6 /* TestHeadless_1App.swift in Sources */,
+				C59611F927C686EC0055DCF6 /* CircleImage.swift in Sources */,
+				C58EBB1D27C68CC600BD26E2 /* BrowserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +320,8 @@
 			files = (
 				C59611E727C6770C0055DCF6 /* ContentView.swift in Sources */,
 				C59611E527C6770C0055DCF6 /* TestHeadless_1App.swift in Sources */,
+				C59611FA27C686EC0055DCF6 /* CircleImage.swift in Sources */,
+				C58EBB1E27C68CC600BD26E2 /* BrowserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +392,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: techmoat@gmail.com (8PDD7QC663)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -439,6 +452,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: techmoat@gmail.com (8PDD7QC663)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -478,8 +492,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TestHeadless-1";
-				PRODUCT_NAME = "TestHeadless-1";
+				PRODUCT_BUNDLE_IDENTIFIER = in.beta.thrillion;
+				PRODUCT_NAME = ThrillionBeta;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,8 +521,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TestHeadless-1";
-				PRODUCT_NAME = "TestHeadless-1";
+				PRODUCT_BUNDLE_IDENTIFIER = in.beta.thrillion;
+				PRODUCT_NAME = ThrillionBeta;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

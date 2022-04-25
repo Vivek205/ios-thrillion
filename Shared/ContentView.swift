@@ -7,10 +7,16 @@
 
 import SwiftUI
 
+let moatURL = "https://app.thrillion.in/"
+let username = "thrillion"
+let password = "thrillion@123"
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            BrowserView(url: moatURL, username: username, password: password)
+        }
+        .background(Color.yellow)
     }
 }
 
